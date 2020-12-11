@@ -299,14 +299,14 @@ function to color the area in between them.
 array
 -----
 
-A special type that applies to an array id. It defines the type of the elements contained in the array and is constructed by appending the ``[]`` modifier to one of the four fundamental types allowed in arrays:
+Arrays in Pine are identified by an *array id*. There is no single type representing an array id, 
+but rather an overloaded version of a subset of fundamental Pine types which reflects the type of an array's elements. 
+These type names are constructed by appending the ``[]`` suffix to one of the four fundamental types allowed in arrays:
 
 - ``int[]``
 - ``float[]``
 - ``bool[]``
 - ``color[]``
-
-There is only one form of the array type in Pine: series.
 
 void
 ----
